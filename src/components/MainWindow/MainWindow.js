@@ -10,7 +10,9 @@ const MainWindow = () => {
         <div>
           <div className={styles.mainWindow_titles}>
             <div>Activity</div>
-            <div>All Updates</div>
+            <div>
+              All Updates <span className={styles.arrow}>&#129171;</span>
+            </div>
           </div>
         </div>
         <div className={styles.mainWindow_content}></div>

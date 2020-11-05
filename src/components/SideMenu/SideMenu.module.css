@@ -1,41 +1,40 @@
-.sideMenu_container_close {
+.sideMenu_container {
+  height: 100%;
+  background: #384756;
+  position: absolute;
+  top: 0;
+}
+
+.sideMenu_head_closedMenu {
   width: 50px;
-  height: 100%;
-  background: #384756;
-  position: absolute;
-  top: 0;
 }
 
-.sideMenu_container_open {
+.sideMenu_head_openedMenu {
   width: 150px;
-  height: 100%;
-  background: #384756;
-  position: absolute;
-  top: 0;
 }
 
-.sideMenu_icon_close {
+.sideMenu_body_closedMenu {
   background: #333f4e;
   width: 100%;
   height: 50px;
 }
 
-.sideMenu_icon_close:hover {
+.sideMenu_body_closedMenu:hover {
   cursor: pointer;
 }
 
-.sideMenu_icon_open {
+.sideMenu_body__openedMenu {
   background: #333f4e;
   width: 150px;
   height: 50px;
   position: relative;
 }
 
-.sideMenu_icon_image {
+.sideMenu_menuIcon {
   width: 20px;
   position: absolute;
   top: 15px;
-  left: 10px;
+  left: 15px;
 }
 
 .menu_list {
@@ -61,13 +60,21 @@ a:hover {
 
 .sideMenu_closeButton {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 5px;
+  right: 0;
   color: white;
 }
 
 .sideMenu_closeButton:hover {
   cursor: pointer;
+}
+
+.sideMenu_closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  width: 20px;
 }
 
 .logo {
