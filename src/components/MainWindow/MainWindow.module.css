@@ -45,8 +45,6 @@
 .bell_icon,
 .menu_icon {
   height: 20px;
-  position: absolute;
-  top: 5px;
 }
 
 .icons {
@@ -57,11 +55,26 @@
   position: absolute;
   right: 10px;
   border-bottom: 2px solid black;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .menu_icon {
   background-color: grey;
   position: absolute;
   right: 40px;
+}
+
+@media (max-width: 480px) {
+  .mainWindow_container {
+    flex-direction: column;
+  }
+
+  .rightWindow,
+  .leftWindow {
+    width: 94%;
+  }
+
+  .arrow {
+    top: 54px;
+  }
 }
