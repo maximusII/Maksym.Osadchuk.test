@@ -1,0 +1,78 @@
+.sideMenu_container_close {
+  width: 50px;
+  height: 100%;
+  background: #384756;
+  position: absolute;
+  top: 0;
+}
+
+.sideMenu_container_open {
+  width: 150px;
+  height: 100%;
+  background: #384756;
+  position: absolute;
+  top: 0;
+}
+
+.sideMenu_icon_close {
+  background: #333f4e;
+  width: 100%;
+  height: 50px;
+}
+
+.sideMenu_icon_close:hover {
+  cursor: pointer;
+}
+
+.sideMenu_icon_open {
+  background: #333f4e;
+  width: 150px;
+  height: 50px;
+  position: relative;
+}
+
+.sideMenu_icon_image {
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.menu_list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu_list_item {
+  text-align: left;
+  padding: 10px;
+  color: white;
+}
+
+a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.sideMenu_closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
+
+.sideMenu_closeButton:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 60px;
+  position: absolute;
+  top: 18px;
+  left: 50px;
+}

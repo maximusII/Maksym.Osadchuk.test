@@ -1,0 +1,56 @@
+.mainWindow_container {
+  position: relative;
+  width: calc(100% - 50px);
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  height: calc(100% - 52px);
+}
+
+.rightWindow,
+.leftWindow {
+  margin: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.rightWindow {
+  width: 60%;
+}
+
+.leftWindow {
+  width: 30%;
+}
+
+.mainWindow_titles {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #f0f1f0;
+}
+
+.mainWindow_content {
+  height: 200px;
+}
+
+.bell_icon,
+.menu_icon {
+  height: 20px;
+  position: absolute;
+  top: 5px;
+}
+
+.icons {
+  position: relative;
+}
+
+.bell_icon {
+  position: absolute;
+  right: 10px;
+}
+
+.menu_icon {
+  background-color: grey;
+  position: absolute;
+  right: 40px;
+}
